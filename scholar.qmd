@@ -1,0 +1,87 @@
+---
+pagetitle: "Scholar & Contact"
+description: "Google Scholar citation metrics and contact information for Anushka Saxena."
+page-layout: custom
+---
+
+```{=html}
+<header class="page-hero">
+  <div class="section-label">Metrics &amp; Reach</div>
+  <h1>Scholar &amp; Contact</h1>
+  <p>Academic metrics, citation data, and ways to connect.</p>
+</header>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="section-label">Google Scholar</div>
+    <h2 class="section-title">Citation Metrics</h2>
+    <div class="gold-divider"></div>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-number">36</div><div class="stat-label">Total Citations</div></div>
+      <div class="stat-card"><div class="stat-number">3</div><div class="stat-label">h-index</div></div>
+      <div class="stat-card"><div class="stat-number">26</div><div class="stat-label">Publications</div></div>
+      <div class="stat-card"><div class="stat-number">7+</div><div class="stat-label">Years Active</div></div>
+    </div>
+
+    <h3 style="font-family:var(--font-accent); color:var(--teal); margin:36px 0 16px;">Most Cited Publications</h3>
+    <div style="overflow-x:auto;">
+      <table style="width:100%; background:var(--white); border-radius:12px; border-collapse:collapse; box-shadow:var(--card-shadow);">
+        <thead>
+          <tr style="background:var(--teal); color:#fff; text-align:left;">
+            <th style="padding:12px 18px;">Publication</th>
+            <th style="padding:12px 18px; text-align:center;">Year</th>
+            <th style="padding:12px 18px; text-align:center;">Citations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">India's Space Policy and Counter-Space Capabilities</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2023</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">9</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">75 Years of China-Russia Relations: Indeed a 'No Limits' Partnership</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2021</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">7</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">Contemporary Dynamics of an India-Taiwan Partnership</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2024</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">3</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">China's Approach to Military Unmanned Aerial Vehicles and Drone Autonomy</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2023</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">3</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">Mapping India's Pan Africa e-Network Project</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2019</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">3</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">A Decade of US 'Pivot to Asia'</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2019</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">3</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">Xi Jinping's Vision of War Seen in Creation of 'Information Force'</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2024</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">2</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">Assessing Operations and 'Jointness' in the PLA Western Theater Command</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2023</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">2</td></tr>
+          <tr><td style="padding:10px 18px; border-bottom:1px solid var(--border);">China's Quest for Military Supremacy (Asian Survey)</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border);">2026</td><td style="padding:10px 18px; text-align:center; border-bottom:1px solid var(--border); color:var(--gold); font-weight:700;">0</td></tr>
+          <tr><td style="padding:10px 18px;">New Frontiers in China's Military Organisation</td><td style="padding:10px 18px; text-align:center;">2025</td><td style="padding:10px 18px; text-align:center; color:var(--gold); font-weight:700;">0</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:16px; color:var(--text-muted); font-size:0.9rem;">For the most up-to-date metrics, visit the full <a href="https://scholar.google.com/citations?hl=en&user=vMQPQUsAAAAJ" target="_blank" rel="noopener"><strong>Google Scholar profile</strong></a>.</p>
+  </div>
+</section>
+
+<section class="as-section as-section-alt" id="contact">
+  <div class="as-container">
+    <div class="section-label">Connect</div>
+    <h2 class="section-title">Contact</h2>
+    <div class="gold-divider"></div>
+    <div class="quotes-grid">
+      <a class="quote-card" href="mailto:anushka@takshashila.org.in">
+        <h3>&#9993;&#65039; Email</h3>
+        <div class="source">anushka@takshashila.org.in</div>
+      </a>
+      <a class="quote-card" href="https://takshashila.org.in/content/team/anushka-saxena.html" target="_blank" rel="noopener">
+        <h3>&#127963;&#65039; Takshashila Institution</h3>
+        <div class="source">Institutional profile</div>
+      </a>
+      <a class="quote-card" href="https://x.com/saxenaanushka_" target="_blank" rel="noopener">
+        <h3>&#120143; Twitter / X</h3>
+        <div class="source">@SaxenaAnushka_</div>
+      </a>
+      <a class="quote-card" href="https://www.linkedin.com/in/anushka-saxena-research-china/" target="_blank" rel="noopener">
+        <h3>&#128188; LinkedIn</h3>
+        <div class="source">anushka-saxena-research-china</div>
+      </a>
+      <a class="quote-card" href="https://scholar.google.com/citations?hl=en&user=vMQPQUsAAAAJ" target="_blank" rel="noopener">
+        <h3>&#127891; Google Scholar</h3>
+        <div class="source">Citations profile</div>
+      </a>
+      <a class="quote-card" href="https://eyeonchina.substack.com" target="_blank" rel="noopener">
+        <h3>&#128240; Eye on China</h3>
+        <div class="source">Weekly newsletter on Substack</div>
+      </a>
+    </div>
+  </div>
+</section>
+```

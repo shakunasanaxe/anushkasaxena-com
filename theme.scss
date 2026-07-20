@@ -1,0 +1,68 @@
+/*-- scss:defaults --*/
+
+// Anushka Saxena palette — deep teal + warm gold + rich plum
+$teal: #1b4d4f;
+$teal-light: #26706e;
+$teal-dark: #0f3538;
+$gold: #c9953c;
+$gold-light: #e8c36a;
+$plum: #6b3a5d;
+$cream: #faf6f0;
+
+$primary: $teal;
+$secondary: $gold;
+$body-bg: $cream;
+$body-color: #2a2a2a;
+$link-color: $teal-light;
+$link-hover-color: $gold;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+$headings-font-family: "Cormorant Garamond", "Alice", Georgia, serif;
+$headings-font-weight: 700;
+$headings-color: $teal-dark;
+
+$navbar-bg: $teal-dark;
+$navbar-fg: #c0cec8;
+$navbar-hl: $gold-light;
+
+$footer-bg: $teal-dark;
+$footer-fg: #c0cec8;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap');
+
+// Navbar: match original design — gold bottom border, serif brand
+.navbar {
+  border-bottom: 3px solid $gold;
+  .navbar-brand {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff !important;
+    letter-spacing: 0.02em;
+  }
+  .nav-link {
+    font-family: "Alice", Georgia, serif;
+    font-size: 0.95rem;
+    padding: 8px 18px !important;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    &:hover { color: $gold-light !important; }
+    &.active { background: rgba(201,149,60,0.18); color: $gold-light !important; }
+  }
+  .aa-DetachedSearchButton { border-radius: 8px; }
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool { color: #c0cec8; }
+
+// Footer
+.nav-footer {
+  border-top: 3px solid $gold;
+  font-family: "Alice", Georgia, serif;
+  a { color: $gold-light; }
+  a:hover { color: #fff; }
+}
+
+// Kill default quarto title block padding clash on custom pages
+.quarto-container { padding: 0; }

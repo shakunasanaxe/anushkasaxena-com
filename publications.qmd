@@ -1,0 +1,48 @@
+---
+pagetitle: "Publications"
+description: "Op-eds, commentaries, research papers, and working papers by Anushka Saxena on Chinese military affairs, Indo-Pacific geopolitics, and India's foreign policy."
+page-layout: custom
+---
+
+```{=html}
+<header class="page-hero">
+  <div class="section-label">Research &amp; Writing</div>
+  <h1>Publications</h1>
+  <p>Opinions, commentaries, research papers, and working papers on Chinese military affairs, Indo-Pacific geopolitics, and India's foreign policy.</p>
+</header>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="section-label">Op-eds &amp; Commentary</div>
+    <h2 class="section-title">Short-Form</h2>
+    <div class="gold-divider"></div>
+    <div class="as-filter">
+      <span>&#128269;</span>
+      <input type="text" data-filter="short-form-list" placeholder="Filter short-form articles…">
+    </div>
+```
+
+{{< include _includes/shortform.html >}}
+
+```{=html}
+  </div>
+</section>
+
+<section class="as-section as-section-alt">
+  <div class="as-container">
+    <div class="section-label">Papers &amp; Chapters</div>
+    <h2 class="section-title">Long-Form</h2>
+    <div class="gold-divider"></div>
+    <div class="as-filter">
+      <span>&#128269;</span>
+      <input type="text" data-filter="long-form-list" placeholder="Filter research papers…">
+    </div>
+```
+
+{{< include _includes/longform.html >}}
+
+```{=html}
+  </div>
+</section>
+<script src="site.js"></script>
+```

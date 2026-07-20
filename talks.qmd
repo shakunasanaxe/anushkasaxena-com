@@ -1,0 +1,49 @@
+---
+pagetitle: "Talks & Impact"
+description: "Public talks, conference panels, guest lectures, and workshops by Anushka Saxena on Chinese military affairs and Indo-Pacific security."
+page-layout: custom
+---
+
+```{=html}
+<header class="page-hero">
+  <div class="section-label">Speaking &amp; Outreach</div>
+  <h1>Talks &amp; Impact</h1>
+  <p>Conference panels, guest lectures, workshops, and closed-door briefings on China, the PLA, and Indo-Pacific security.</p>
+</header>
+
+<section class="as-section" style="padding-bottom:0;">
+  <div class="as-container">
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-number">--</div><div class="stat-label">Talks Delivered</div></div>
+      <div class="stat-card"><div class="stat-number">--</div><div class="stat-label">Institutions</div></div>
+      <div class="stat-card"><div class="stat-number">--</div><div class="stat-label">Countries</div></div>
+      <div class="stat-card"><div class="stat-number">--</div><div class="stat-label">Officers &amp; Students Briefed</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="section-label">Engagements</div>
+    <h2 class="section-title">Selected Talks &amp; Lectures</h2>
+    <div class="gold-divider"></div>
+```
+
+{{< include _includes/talks.html >}}
+
+```{=html}
+  </div>
+</section>
+
+<section class="as-section as-section-alt">
+  <div class="as-container">
+    <div class="cta-band">
+      <div>
+        <h2>Invite Anushka to speak</h2>
+        <p>Available for lectures, panels, wargames, and closed-door briefings on the PLA, China-Taiwan dynamics, and India's China policy.</p>
+      </div>
+      <a class="btn-gold" href="mailto:anushka@takshashila.org.in">Get in touch</a>
+    </div>
+  </div>
+</section>
+```

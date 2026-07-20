@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: scripts/build_includes.py
+  resources:
+    - assets/
+    - site.js
+    - CNAME
+
+website:
+  title: "Anushka Saxena"
+  site-url: https://anushkasaxena.com
+  description: "Anushka Saxena — Staff Research Analyst at the Takshashila Institution specialising in Chinese military affairs, China-Taiwan relations, and India's foreign policy."
+  favicon: assets/favicon.svg
+  image: assets/anushka-photo.jpg
+  open-graph: true
+  twitter-card:
+    creator: "@SaxenaAnushka_"
+    card-style: summary_large_image
+  navbar:
+    background: "#0f3538"
+    foreground: "#c0cec8"
+    logo: false
+    title: "Anushka Saxena"
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Media"
+        href: media.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "Scholar & Contact"
+        href: scholar.qmd
+    search: true
+  page-footer:
+    background: "#0f3538"
+    center: |
+      [Home](index.html) · [Publications](publications.html) · [Media](media.html) · [Talks](talks.html) · [Scholar & Contact](scholar.html) · [Eye on China newsletter](https://eyeonchina.substack.com)<br>
+      © 2026 Anushka Saxena. All rights reserved.
+  # To enable analytics, create a free account at plausible.io or goatcounter.com,
+  # then uncomment and fill in below (or use google-analytics: "G-XXXXXXX"):
+  # google-analytics: ""
+
+format:
+  html:
+    theme:
+      - litera
+      - theme.scss
+    css: custom.css
+    toc: false
+    page-layout: full
+    include-in-header: partials/head.html
+    link-external-newwindow: true
+
+execute:
+  enabled: false

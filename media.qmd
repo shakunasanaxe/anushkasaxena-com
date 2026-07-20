@@ -1,0 +1,48 @@
+---
+pagetitle: "Media & Video Engagements"
+description: "Television appearances, podcast episodes, and media quotes by Anushka Saxena on Chinese military affairs and Indo-Pacific geopolitics."
+page-layout: custom
+---
+
+```{=html}
+<header class="page-hero">
+  <div class="section-label">Engagements</div>
+  <h1>Videos &amp; Media</h1>
+  <p>Television appearances, podcast episodes, and media commentary on geopolitics and security.</p>
+</header>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="section-label">Watch &amp; Listen</div>
+    <h2 class="section-title">Video &amp; Podcast Appearances</h2>
+    <div class="gold-divider"></div>
+    <div class="as-filter">
+      <span>&#128269;</span>
+      <input type="text" data-filter="media-list" placeholder="Filter videos &amp; podcasts…">
+    </div>
+```
+
+{{< include _includes/media.html >}}
+
+```{=html}
+  </div>
+</section>
+
+<section class="as-section as-section-alt">
+  <div class="as-container">
+    <div class="section-label">In the Press</div>
+    <h2 class="section-title">Media Quotes &amp; Comments</h2>
+    <div class="gold-divider"></div>
+    <div class="as-filter">
+      <span>&#128269;</span>
+      <input type="text" data-filter="quotes-list" placeholder="Filter media mentions…">
+    </div>
+```
+
+{{< include _includes/quotes.html >}}
+
+```{=html}
+  </div>
+</section>
+<script src="site.js"></script>
+```

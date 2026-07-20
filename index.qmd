@@ -1,0 +1,140 @@
+---
+pagetitle: "Anushka Saxena | Researcher & Analyst"
+description: "Staff Research Analyst at the Takshashila Institution specialising in Chinese military affairs, China-Taiwan relations, and India's foreign policy."
+page-layout: custom
+---
+
+```{=html}
+<section class="home-hero">
+  <div class="home-hero-grid">
+    <div>
+      <div class="hero-badge">Researcher &amp; Analyst</div>
+      <h1>Anushka <span class="highlight">Saxena</span></h1>
+      <p class="hero-subtitle">
+        Staff Research Analyst at the Takshashila Institution's Geostrategy Programme.
+        Doctoral Scholar at Manipal Academy of Higher Education. Specialising in Chinese
+        military affairs, China-Taiwan relations, and India's foreign policy. Curator of
+        the weekly <em>Eye on China</em> newsletter.
+      </p>
+      <div class="hero-cta">
+        <a class="btn-gold" href="publications.html">View Publications</a>
+        <a class="btn-ghost" href="talks.html">Talks &amp; Impact</a>
+        <a class="btn-ghost" href="scholar.html#contact">Contact</a>
+      </div>
+    </div>
+    <div class="hero-photo-card">
+      <img src="assets/anushka-photo.jpg" alt="Anushka Saxena">
+      <h3>Anushka Saxena</h3>
+      <p>Geostrategy Programme, The Takshashila Institution</p>
+```
+
+{{< include _includes/herostats.html >}}
+
+```{=html}
+    </div>
+  </div>
+</section>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="section-label">Latest</div>
+    <h2 class="section-title">Recent Work</h2>
+    <div class="gold-divider"></div>
+```
+
+{{< include _includes/latest.html >}}
+
+```{=html}
+  </div>
+</section>
+
+<section class="as-section as-section-alt">
+  <div class="as-container">
+    <div class="section-label">About</div>
+    <h2 class="section-title">Profile</h2>
+    <div class="gold-divider"></div>
+    <p style="max-width:860px;">Anushka Saxena is a Staff Research Analyst with Takshashila's Geostrategy Programme. She is also a Doctoral Scholar at the Manipal Academy of Higher Education's Department of Geopolitics and International Relations. Her research focuses on the Chinese People's Liberation Army and its reforms, China-Taiwan relations, and India's foreign policy. She curates the weekly newsletter <a href="https://eyeonchina.substack.com" target="_blank" rel="noopener"><em>Eye on China</em></a>.</p>
+    <p style="max-width:860px;">She has previously worked with think tanks such as the Observer Research Foundation, Institute of Chinese Studies, and Centre for Social and Economic Progress, and has written for platforms such as MP-IDSA, Centre for Land Warfare Studies, and Vivekananda International Foundation. She obtained her Master's in International Relations from O.P. Jindal Global University (2023) and her B.A. (Hons) in History from Lady Shri Ram College for Women, University of Delhi (2021).</p>
+  </div>
+</section>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="section-label">Expertise</div>
+    <h2 class="section-title">Research Interests &amp; Areas</h2>
+    <div class="gold-divider"></div>
+    <div class="research-grid">
+      <div class="research-card"><div class="research-icon">🏯</div><h3>Chinese Military Affairs</h3><p>PLA reforms, military modernisation, political-military dynamics under Xi Jinping, and corruption purges within China's armed forces.</p></div>
+      <div class="research-card"><div class="research-icon">🌏</div><h3>China-Taiwan Relations</h3><p>Cross-strait dynamics, military exercises, escalation scenarios, and the geopolitical implications of a potential Taiwan Strait crisis.</p></div>
+      <div class="research-card"><div class="research-icon">🗺️</div><h3>India's Foreign Policy</h3><p>India-China relations, India's neighbourhood diplomacy, economic diplomacy frameworks, and multilateral engagement strategies.</p></div>
+      <div class="research-card"><div class="research-icon">⚓</div><h3>Indo-Pacific Strategy</h3><p>Regional security architecture, maritime dynamics, ASEAN perspectives, and the evolving Indo-Pacific geopolitical landscape.</p></div>
+      <div class="research-card"><div class="research-icon">🚀</div><h3>Defence Technology</h3><p>Drone warfare, AI in military operations, space policy, counter-space capabilities, and critical technology landscapes.</p></div>
+      <div class="research-card"><div class="research-icon">📚</div><h3>Chinese Economy &amp; Governance</h3><p>Economic reforms, Politburo study sessions, third plenums, and the interplay between China's economic and military ambitions.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="as-section as-section-alt">
+  <div class="as-container">
+    <div class="section-label">Career</div>
+    <h2 class="section-title">Experience &amp; Education</h2>
+    <div class="gold-divider"></div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
+        <div class="timeline-content">
+          <h4>Staff Research Analyst</h4>
+          <div class="org">Takshashila Institution — Geostrategy Programme</div>
+          <div class="period">Current</div>
+          <p>Leading research on Chinese military affairs, curating the "Eye on China" newsletter, and publishing policy analysis on Indo-Pacific dynamics.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
+        <div class="timeline-content">
+          <h4>Doctoral Scholar</h4>
+          <div class="org">Manipal Academy of Higher Education</div>
+          <div class="period">Ongoing</div>
+          <p>Department of Geopolitics and International Relations, researching the intersection of Chinese military reform and regional security.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
+        <div class="timeline-content">
+          <h4>Former Researcher</h4>
+          <div class="org">Observer Research Foundation / Institute of Chinese Studies / CSEP</div>
+          <div class="period">Previous roles</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
+        <div class="timeline-content">
+          <h4>M.A. International Relations</h4>
+          <div class="org">O.P. Jindal Global University</div>
+          <div class="period">2023</div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"><div class="timeline-dot"></div></div>
+        <div class="timeline-content">
+          <h4>B.A. (Hons) History</h4>
+          <div class="org">Lady Shri Ram College for Women, University of Delhi</div>
+          <div class="period">2021</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="as-section">
+  <div class="as-container">
+    <div class="cta-band">
+      <div>
+        <h2>Eye on China</h2>
+        <p>A weekly newsletter decoding Chinese military, political, and economic developments — curated by Anushka at the Takshashila Institution.</p>
+      </div>
+      <a class="btn-gold" href="https://eyeonchina.substack.com" target="_blank" rel="noopener">Subscribe on Substack</a>
+    </div>
+  </div>
+</section>
+```

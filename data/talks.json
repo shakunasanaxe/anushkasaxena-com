@@ -1,0 +1,61 @@
+[
+  {
+    "title": "New Frontiers in China's Military Organisation — ICS Wednesday Seminar",
+    "venue": "Institute of Chinese Studies, Delhi",
+    "date": "November 2025",
+    "badge": "Seminar",
+    "url": "https://www.youtube.com/live/nd9jtQEHfaA",
+    "youtube_id": "nd9jtQEHfaA",
+    "description": "Invited Wednesday Seminar lecture on the PLA's dissolution of the Strategic Support Force and the creation of the Information Support, Cyberspace, and Aerospace Forces. Chaired by M.V. Rappai; an official executive summary was published by ICS."
+  },
+  {
+    "title": "Book Release: Taming The Dragon — A Manifesto for a New Modus Vivendi with China",
+    "venue": "Pune International Centre",
+    "date": "June 2026",
+    "badge": "Book Launch",
+    "url": "https://youtu.be/ZEOOwNvevhU",
+    "youtube_id": "ZEOOwNvevhU",
+    "description": "Panel discussion at the Pune International Centre launch of the co-authored volume proposing a new modus vivendi framework for India's China policy."
+  },
+  {
+    "title": "Special Panel: Current Discourses in Chinese Studies — 18th AICCS",
+    "venue": "All India Conference of China Studies",
+    "date": "2025",
+    "badge": "Panel",
+    "url": "https://youtu.be/1tslLQmY7B0",
+    "youtube_id": "1tslLQmY7B0",
+    "description": "Panellist on the state of the field of Chinese studies in India at the Institute of Chinese Studies' flagship annual conference."
+  },
+  {
+    "title": "Lecture on PLA Intelligent Multi-Domain Operations",
+    "venue": "Army War College, Mhow",
+    "date": "December 2025",
+    "badge": "Lecture",
+    "placeholder": true,
+    "description": "Guest lecture to senior officers on the PLA's intelligentised multi-domain operations concept. [Add photo + confirm details]"
+  },
+  {
+    "title": "Australia Policy Ecosystem Delegation",
+    "venue": "Canberra & Melbourne, Australia",
+    "date": "2026",
+    "badge": "Delegation",
+    "placeholder": true,
+    "description": "Part of a DFAT-supported delegation of Bengaluru women in tech-policy engaging with policymakers, industry leaders, and researchers across Australia's policy ecosystem. [Add photo + exact institutions]"
+  },
+  {
+    "title": "China in the World Conference 2026",
+    "venue": "[Confirm host institution]",
+    "date": "2026",
+    "badge": "Conference",
+    "placeholder": true,
+    "description": "[Add photo + panel title and description]"
+  },
+  {
+    "title": "Brussels Indo-Pacific engagement",
+    "venue": "Brussels, Belgium",
+    "date": "December 2025",
+    "badge": "Dialogue",
+    "placeholder": true,
+    "description": "[Add photo + event name — coincides with the Brussels Indo-Pacific Dialogue 2025, 1-2 December]"
+  }
+]
