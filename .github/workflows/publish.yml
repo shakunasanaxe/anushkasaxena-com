@@ -1,0 +1,28 @@
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # scripts/build_includes.py runs as a pre-render hook
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
