@@ -31,6 +31,8 @@ def pub_list(items, list_id):
     for i, it in enumerate(items, 1):
         hid = " hidden" if i > VISIBLE else ""
         year = f'<span class="year">{it["year"]}</span>' if it.get("year") else ""
+        if it.get("date"):
+            year = f'<span class="year">{esc(it["date"])}</span>'
         out.append(
             f'<div class="pub-card{hid}"><div class="pub-number">{i}</div>'
             f'<div class="pub-info"><h3><a href="{esc(it["url"])}" target="_blank" rel="noopener">{esc(it["title"])}</a></h3>'
@@ -46,7 +48,9 @@ def media_grid(items):
         hid = " hidden" if i > 12 else ""
         badge = it.get("type", "video")
         thumb = ""
-        if it.get("youtube_id"):
+        if it.get("thumbnail"):
+            thumb = f'<img class="thumb-img" src="{esc(it["thumbnail"])}" alt="" loading="lazy">'
+        elif it.get("youtube_id"):
             thumb = f'<img class="thumb-img" src="https://img.youtube.com/vi/{it["youtube_id"]}/hqdefault.jpg" alt="" loading="lazy">'
         out.append(
             f'<a class="media-card{hid}" href="{esc(it["url"])}" target="_blank" rel="noopener">'
@@ -114,9 +118,11 @@ long_ = load("longform")
 media = load("media")
 quotes = load("quotes")
 talks = load("talks") if (DATA / "talks.json").exists() else []
+blogs = load("blogs") if (DATA / "blogs.json").exists() else []
 
 (INC / "shortform.html").write_text(raw(pub_list(short, "short-form-list")))
 (INC / "longform.html").write_text(raw(pub_list(long_, "long-form-list")))
+(INC / "blogs.html").write_text(raw(pub_list(blogs, "blog-list")))
 (INC / "media.html").write_text(raw(media_grid(media)))
 (INC / "quotes.html").write_text(raw(quotes_grid(quotes)))
 (INC / "talks.html").write_text(raw(talks_grid(talks)))
@@ -133,4 +139,4 @@ stats = (
 )
 (INC / "herostats.html").write_text(raw(stats))
 
-print(f"includes built: short={len(short)} long={len(long_)} media={len(media)} quotes={len(quotes)} talks={len(talks)}")
+print(f"includes built: short={len(short)} long={len(long_)} media={len(media)} quotes={len(quotes)} talks={len(talks)} blogs={len(blogs)}")
