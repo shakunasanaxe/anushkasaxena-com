@@ -14,10 +14,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # scripts/build_includes.py runs as a pre-render hook
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
+      # Generate _includes/*.html BEFORE quarto starts: newer Quarto resolves
+      # {{< include >}} directives before the pre-render hook has a chance to run.
+      - name: Build includes
+        run: python scripts/build_includes.py
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
