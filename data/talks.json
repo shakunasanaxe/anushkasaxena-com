@@ -1,5 +1,21 @@
 [
   {
+    "title": "Lecture on the East and South China Sea Disputes — Higher Command Course",
+    "venue": "Indian Naval War College, Goa",
+    "date": "27 August 2026",
+    "badge": "Lecture",
+    "photo": "assets/talks/naval-war-college-goa.jpg",
+    "description": "Spoke to officers from friendly foreign countries on disputes in the East and South China Seas at the maiden Higher Command Course of the Indian Naval War College in Goa."
+  },
+  {
+    "title": "China's Western Theatre Command: An Operational and Tactical Assessment",
+    "venue": "Army Training Command (ARTRAC), Shimla",
+    "date": "13 August 2026",
+    "badge": "Lecture",
+    "photo": "assets/talks/army-training-command-shimla.jpg",
+    "description": "Lecture on the PLA Western Theatre Command, covering its operational and tactical posture, at the Army Training Command in Shimla."
+  },
+  {
     "title": "New Frontiers in China's Military Organisation — ICS Wednesday Seminar",
     "venue": "Institute of Chinese Studies, Delhi",
     "date": "November 2025",
@@ -31,31 +47,32 @@
     "venue": "Army War College, Mhow",
     "date": "December 2025",
     "badge": "Lecture",
-    "placeholder": true,
-    "description": "Guest lecture to senior officers on the PLA's intelligentised multi-domain operations concept. [Add photo + confirm details]"
+    "description": "Guest lecture to senior officers on the PLA's intelligentised multi-domain operations concept.",
+    "photo": "assets/talks/army-war-college-mhow.jpg"
   },
   {
     "title": "Australia Policy Ecosystem Delegation",
     "venue": "Canberra & Melbourne, Australia",
     "date": "2026",
     "badge": "Delegation",
-    "placeholder": true,
-    "description": "Part of a DFAT-supported delegation of Bengaluru women in tech-policy engaging with policymakers, industry leaders, and researchers across Australia's policy ecosystem. [Add photo + exact institutions]"
+    "description": "Part of a DFAT-supported delegation of Bengaluru women in tech-policy engaging with policymakers, industry leaders, and researchers across Australia's policy ecosystem.",
+    "photo": "assets/talks/australia-parliament.jpg"
   },
   {
     "title": "China in the World Conference 2026",
-    "venue": "[Confirm host institution]",
+    "venue": "Doublethink Lab, Taipei",
     "date": "2026",
     "badge": "Conference",
-    "placeholder": true,
-    "description": "[Add photo + panel title and description]"
+    "description": "Presented \"A Parallel Security Order: China's Defence Industrial Base and Economic Weaponisation\" (with Amit Kumar) at the China in the World conference, hosted by Doublethink Lab in Taipei.",
+    "photo": "assets/talks/china-in-the-world-2026.jpg",
+    "url": "https://www.youtube.com/watch?v=9J3ERY0OpN8"
   },
   {
     "title": "Brussels Indo-Pacific engagement",
     "venue": "Brussels, Belgium",
     "date": "December 2025",
     "badge": "Dialogue",
-    "placeholder": true,
-    "description": "[Add photo + event name — coincides with the Brussels Indo-Pacific Dialogue 2025, 1-2 December]"
+    "description": "Engagements in Brussels coinciding with the Brussels Indo-Pacific Dialogue 2025 (1-2 December).",
+    "photo": "assets/talks/brussels-dialogue.jpg"
   }
 ]
