@@ -298,3 +298,9 @@
   .home-hero h1 { font-size: 2.5rem; }
   .page-hero h1 { font-size: 2.3rem; }
 }
+
+/* Publications toggle */
+.pub-toggle { display: inline-flex; gap: 4px; padding: 4px; margin-bottom: 36px; border: 1px solid var(--gold); border-radius: 999px; flex-wrap: wrap; }
+.pub-toggle button { border: 0; background: transparent; padding: 8px 20px; border-radius: 999px; font: inherit; font-weight: 600; cursor: pointer; color: inherit; }
+.pub-toggle button.active { background: var(--gold); color: #fff; }
+.pub-panel[hidden] { display: none; }

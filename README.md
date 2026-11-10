@@ -8,7 +8,8 @@ All content lives in `data/*.json` (newest entries first):
 
 - `shortform.json` — op-eds & commentary
 - `longform.json` — research papers & book chapters
-- `media.json` — video & podcast appearances (`youtube_id` gives the card a thumbnail)
+- `media.json` — video & podcast appearances (`youtube_id` gives the card a thumbnail) Optional `thumbnail` (a path under `assets/`) overrides the YouTube thumbnail.
+- `blogs.json` — short blogs from the Takshashila team page (`title`, `url`, `source`, `date`, `year`)
 - `quotes.json` — media quotes & mentions
 - `talks.json` — talks & lectures (photo, venue, date, description)
 

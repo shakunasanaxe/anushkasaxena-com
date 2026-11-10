@@ -29,3 +29,24 @@ document.querySelectorAll('.load-more').forEach(btn => {
     btn.closest('.load-more-wrap').style.display = 'none';
   });
 });
+
+// Publications toggle (Short-Form / Long-Form / Short Blogs), deep-linkable via #long, #blogs
+(function () {
+  const buttons = document.querySelectorAll('.pub-toggle button');
+  if (!buttons.length) return;
+  const hashMap = { short: 'panel-short', long: 'panel-long', blogs: 'panel-blogs' };
+  function show(id) {
+    buttons.forEach(b => {
+      const on = b.dataset.panel === id;
+      b.classList.toggle('active', on);
+      b.setAttribute('aria-selected', on);
+    });
+    document.querySelectorAll('.pub-panel').forEach(p => { p.hidden = p.id !== id; });
+  }
+  buttons.forEach(b => b.addEventListener('click', () => {
+    show(b.dataset.panel);
+    history.replaceState(null, '', '#' + Object.keys(hashMap).find(k => hashMap[k] === b.dataset.panel));
+  }));
+  const start = hashMap[location.hash.slice(1)];
+  if (start) show(start);
+})();
