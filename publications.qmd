@@ -1,6 +1,6 @@
 ---
 pagetitle: "Publications"
-description: "Op-eds, commentaries, research papers, and working papers by Anushka Saxena on Chinese military affairs, Indo-Pacific geopolitics, and India's foreign policy."
+description: "Op-eds, commentaries, research papers, short blogs, and working papers by Anushka Saxena on Chinese military affairs, Indo-Pacific geopolitics, and India's foreign policy."
 page-layout: custom
 ---
 
@@ -8,11 +8,18 @@ page-layout: custom
 <header class="page-hero">
   <div class="section-label">Research &amp; Writing</div>
   <h1>Publications</h1>
-  <p>Opinions, commentaries, research papers, and working papers on Chinese military affairs, Indo-Pacific geopolitics, and India's foreign policy.</p>
+  <p>Opinions, commentaries, research papers, short blogs, and working papers on Chinese military affairs, Indo-Pacific geopolitics, and India's foreign policy.</p>
 </header>
 
 <section class="as-section">
   <div class="as-container">
+    <div class="pub-toggle" role="tablist" aria-label="Publication type">
+      <button type="button" role="tab" class="active" data-panel="panel-short" aria-selected="true">Short-Form</button>
+      <button type="button" role="tab" data-panel="panel-long" aria-selected="false">Long-Form</button>
+      <button type="button" role="tab" data-panel="panel-blogs" aria-selected="false">Short Blogs</button>
+    </div>
+
+    <div class="pub-panel" id="panel-short">
     <div class="section-label">Op-eds &amp; Commentary</div>
     <h2 class="section-title">Short-Form</h2>
     <div class="gold-divider"></div>
@@ -25,11 +32,9 @@ page-layout: custom
 {{< include _includes/shortform.html >}}
 
 ```{=html}
-  </div>
-</section>
+    </div>
 
-<section class="as-section as-section-alt">
-  <div class="as-container">
+    <div class="pub-panel" id="panel-long" hidden>
     <div class="section-label">Papers &amp; Chapters</div>
     <h2 class="section-title">Long-Form</h2>
     <div class="gold-divider"></div>
@@ -42,6 +47,22 @@ page-layout: custom
 {{< include _includes/longform.html >}}
 
 ```{=html}
+    </div>
+
+    <div class="pub-panel" id="panel-blogs" hidden>
+    <div class="section-label">Takshashila Blogs</div>
+    <h2 class="section-title">Short Blogs</h2>
+    <div class="gold-divider"></div>
+    <div class="as-filter">
+      <span>&#128269;</span>
+      <input type="text" data-filter="blog-list" placeholder="Filter short blogs…">
+    </div>
+```
+
+{{< include _includes/blogs.html >}}
+
+```{=html}
+    </div>
   </div>
 </section>
 <script src="site.js"></script>
