@@ -10,8 +10,8 @@ project:
 website:
   title: "Anushka Saxena"
   site-url: https://anushkasaxena.com
-  description: "Anushka Saxena — Staff Research Analyst at the Takshashila Institution specialising in Chinese military affairs, China-Taiwan relations, and India's foreign policy."
-  favicon: assets/favicon.svg
+  description: "Anushka Saxena — Associate Fellow at the Takshashila Institution specialising in Chinese military affairs, China-Taiwan relations, and India's foreign policy."
+  favicon: assets/favicon.png
   image: assets/anushka-photo.jpg
   open-graph: true
   twitter-card:

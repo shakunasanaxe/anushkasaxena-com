@@ -1,6 +1,6 @@
 ---
 pagetitle: "Anushka Saxena | Researcher & Analyst"
-description: "Staff Research Analyst at the Takshashila Institution specialising in Chinese military affairs, China-Taiwan relations, and India's foreign policy."
+description: "Associate Fellow at the Takshashila Institution specialising in Chinese military affairs, China-Taiwan relations, and India's foreign policy."
 page-layout: custom
 ---
 
@@ -11,7 +11,7 @@ page-layout: custom
       <div class="hero-badge">Researcher &amp; Analyst</div>
       <h1>Anushka <span class="highlight">Saxena</span></h1>
       <p class="hero-subtitle">
-        Staff Research Analyst at the Takshashila Institution's Geostrategy Programme.
+        Associate Fellow, Geostrategy Programme at the Takshashila Institution.
         Doctoral Scholar at Manipal Academy of Higher Education. Specialising in Chinese
         military affairs, China-Taiwan relations, and India's foreign policy. Curator of
         the weekly <em>Eye on China</em> newsletter.
@@ -53,7 +53,7 @@ page-layout: custom
     <div class="section-label">About</div>
     <h2 class="section-title">Profile</h2>
     <div class="gold-divider"></div>
-    <p style="max-width:860px;">Anushka Saxena is a Staff Research Analyst with Takshashila's Geostrategy Programme. She is also a Doctoral Scholar at the Manipal Academy of Higher Education's Department of Geopolitics and International Relations. Her research focuses on the Chinese People's Liberation Army and its reforms, China-Taiwan relations, and India's foreign policy. She curates the weekly newsletter <a href="https://eyeonchina.substack.com" target="_blank" rel="noopener"><em>Eye on China</em></a>.</p>
+    <p style="max-width:860px;">Anushka Saxena is an Associate Fellow with Takshashila's Geostrategy Programme. She is also a Doctoral Scholar at the Manipal Academy of Higher Education's Department of Geopolitics and International Relations. Her research focuses on the Chinese People's Liberation Army and its reforms, China-Taiwan relations, and India's foreign policy. She curates the weekly newsletter <a href="https://eyeonchina.substack.com" target="_blank" rel="noopener"><em>Eye on China</em></a>.</p>
     <p style="max-width:860px;">She has previously worked with think tanks such as the Observer Research Foundation, Institute of Chinese Studies, and Centre for Social and Economic Progress, and has written for platforms such as MP-IDSA, Centre for Land Warfare Studies, and Vivekananda International Foundation. She obtained her Master's in International Relations from O.P. Jindal Global University (2023) and her B.A. (Hons) in History from Lady Shri Ram College for Women, University of Delhi (2021).</p>
   </div>
 </section>
@@ -83,7 +83,7 @@ page-layout: custom
       <div class="timeline-item">
         <div class="timeline-marker"><div class="timeline-dot"></div><div class="timeline-line"></div></div>
         <div class="timeline-content">
-          <h4>Staff Research Analyst</h4>
+          <h4>Associate Fellow</h4>
           <div class="org">Takshashila Institution — Geostrategy Programme</div>
           <div class="period">Current</div>
           <p>Leading research on Chinese military affairs, curating the "Eye on China" newsletter, and publishing policy analysis on Indo-Pacific dynamics.</p>
